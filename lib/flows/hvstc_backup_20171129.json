@@ -1,0 +1,18 @@
+[
+    {
+        "id": "1a56d5b9.6c7fca",
+        "type": "function",
+        "z": "ffc0f070.9208e",
+        "name": "timestamp 508f",
+        "func": "var msg1 = { payload: msg.payload[\"time\"] }\nvar uuid = { payload: msg.payload[\"uuid\"] }\nif (msg.payload[\"uuid\"] == \"0117c597508f\") {\n    return msg1;\n    }",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 360,
+        "y": 1320,
+        "wires": [
+            [
+                "302de481.f1454c"
+            ]
+        ]
+    }
+]

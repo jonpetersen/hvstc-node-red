@@ -1,0 +1,17 @@
+{
+  "name": "node-red-project",
+  "description": "A Node-RED Project",
+  "version": "0.0.1",
+  "dependencies": {
+    "node-red-contrib-date": "0.0.2",
+    "node-red-contrib-edge-trigger": "~0.1.1",
+    "node-red-contrib-moment": "~2.0.6",
+    "node-red-contrib-offline": "~0.1.2",
+    "node-red-contrib-scx-ibmiotapp": "0.0.46",
+    "node-red-contrib-timeseries": "~1.1.2",
+    "node-red-dashboard": "~2.4.3",
+    "node-red-node-mysql": "0.0.16",
+    "node-red-node-ping": "0.0.13",
+    "node-red-node-smooth": "0.0.11"
+  }
+}
